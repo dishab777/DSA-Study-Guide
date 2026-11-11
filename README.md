@@ -1,74 +1,33 @@
 # DSA Study Guide — CSC2101
 
-An interactive, browser-based study guide for **Data Structures and Algorithms (CSC2101)**. The guide brings lecture material and explanations together in one place to support revision, concept-building, and practical exam preparation.
+A beginner-friendly, browser-based guide to Data Structures and Algorithms. The course material is arranged into a recommended study path, with plain-language explanations, worked examples, C snippets, diagrams, exam notes, and the original extracted lecture-slide text.
 
-## Contents
+## Study path
 
-The study material includes topics such as:
+The 35 lessons progress from data structures and algorithms through performance analysis, linear data structures, trees, graphs, hashing, and algorithm-design strategies. Use the topic panel to search and open a lesson; the previous/next links follow the recommended order.
 
-- **Algorithm analysis**
-  - Time and space complexity
-  - Best, average, and worst cases
-  - Asymptotic notations: Big-O, Big-Omega, and Big-Theta
-  - Worked examples for determining complexity
-- **Trees**
-  - Tree terminology and applications
-  - Binary trees and their representations
-  - Binary Search Trees (BSTs) and basic operations
-  - AVL trees, balancing, rotations, insertion, and deletion
-  - B-Trees
-- **Graphs**
-  - Vertices, edges, paths, and graph types
-  - Directed, undirected, weighted, dense, and sparse graphs
-  - Adjacency matrix and adjacency list representations
-  - Breadth-First Search (BFS)
-- **Algorithm and data-structure examples**
-  - Explanations, illustrations, and code examples included in the guide
+Lessons include step-by-step examples for operations such as array updates and tree insertion, deletion, and balancing. Important ideas and common exam traps are called out in the lesson content. Expand **Original lecture slides** at the end of a lesson to review the extracted slide text from its source deck, including the course handout, syllabus, and course outcomes.
 
-> The topics above describe the material represented in the study guide; use the guide itself as the reference for its complete explanations and examples.
+## Features
+
+- Searchable, grouped topic navigation
+- Recommended beginner-first lesson order
+- Responsive layout for desktop and mobile
+- Light and dark themes
+- Optional per-lesson completion tracking, saved in the current browser
+- Original extracted slide text grouped with the related lesson
+
+## Open the guide
+
+Keep `index.html`, `style.css`, and `script.js` together in one directory, then open `index.html` in a modern browser. No backend or package installation is required.
 
 ## Project files
 
-Keep the following files together in the same directory:
-
 | File | Purpose |
 |---|---|
-| `index.html` | Main study guide page and content |
-| `style.css` | Styling and page layout |
-| `script.js` | JavaScript functionality and interactions |
+| `index.html` | Page structure and accessibility landmarks |
+| `style.css` | Responsive layout, diagrams, callouts, and themes |
+| `script.js` | Lesson content, extracted slide text, navigation, search, and progress |
 
-The HTML file links to the external CSS and JavaScript files. Moving or renaming one of these files may break those links unless the paths in `index.html` are updated.
-
-## How to use
-
-1. Download or clone the project folder.
-2. Make sure `index.html`, `style.css`, and `script.js` are in the same directory.
-3. Open `index.html` in a modern web browser.
-4. Navigate through the study guide and use its explanations and examples for revision.
-
-No Java build process or backend server is required for the basic local use of this static study guide.
-
-## Recommended study approach
-
-1. Read the concept and understand the terminology.
-2. Work through the examples step by step.
-3. Trace algorithms manually using small inputs.
-4. Practise drawing tree and graph representations.
-5. Review time and space complexities.
-6. Try the exercises independently before checking the explanation.
-
-## Technologies
-
-- HTML
-- CSS
-- JavaScript
-
-## Notes
-
-- This is an educational study resource.
-- The guide is intended to be opened through `index.html`.
-- Do not separate the HTML, CSS, and JavaScript files if you want the page to work as intended.
-
----
 **Course:** Data Structures and Algorithms  
-**Course Code:** CSC2101
+**Course code:** CSC2101
