@@ -4,14 +4,14 @@ A beginner-friendly, browser-based guide to Data Structures and Algorithms. The 
 
 ## Study path
 
-The 35 lessons progress from data structures and algorithms through performance analysis, linear data structures, trees, graphs, hashing, and algorithm-design strategies. Use the topic panel to search and open a lesson; the previous/next links follow the recommended order.
+The topic panel follows the **CSC2101 course handout lecture plan**, from course introduction and foundational data structures through trees, graphs, hashing, algorithm analysis, and algorithm design. Related classes share a lesson where appropriate; use the previous/next links to follow the sequence. Topic names are displayed without class numbers.
 
-Lessons include step-by-step examples for operations such as array updates and tree insertion, deletion, and balancing. Important ideas and common exam traps are called out in the lesson content. Expand **Original lecture slides** at the end of a lesson to review the extracted slide text from its source deck, including the course handout, syllabus, and course outcomes.
+Lessons include step-by-step examples for operations such as array updates and tree insertion, deletion, and balancing. Important ideas and common exam traps are called out in the lesson content. Expand **Original lecture slides** at the end of a lesson to review the extracted slide text from its related lecture decks.
 
 ## Features
 
 - Searchable, grouped topic navigation
-- Recommended beginner-first lesson order
+- Recommended order matching the course handout, without numbered topic titles
 - Responsive layout for desktop and mobile
 - Light and dark themes
 - Optional per-lesson completion tracking, saved in the current browser
